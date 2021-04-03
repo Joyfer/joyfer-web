@@ -1,9 +1,9 @@
 <template>
   <div class="textAbout">
-    <v-col cols="12" md="8">
-      <div class="d-flex justify-center"><h2 class="mr-2" v-text="titulo"></h2><v-icon large>mdi-{{icon}}</v-icon></div>
-      <p v-html="descripcion">
-      </p>
+    <v-col cols="12" md="8" class="my-5">
+      <div class="d-flex justify-center mb-5"><div class="mr-3 text-h3" v-text="titulo"></div><v-icon large>mdi-{{icon}}</v-icon></div>
+      <div class="text-body-1" v-html="descripcion">
+      </div>
     </v-col>
   </div>
 </template>

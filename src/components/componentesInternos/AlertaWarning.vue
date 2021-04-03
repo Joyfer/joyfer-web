@@ -19,7 +19,4 @@ export default {
 </script>
 
 <style>
-.AlertaWarning{
-  font-family: 'Source Sans Pro', sans-serif  ;
-}
 </style>

@@ -6,20 +6,20 @@
           svgBg: $vuetify.breakpoint.mdAndUp,
           smBg: !$vuetify.breakpoint.mdAndUp,
         }"
-        class="d-flex align-end flex-column"
+        class="d-flex align-end flex-column fadeInDown fadeIn second"
       >
         <v-col height="100" cols="12" md="6" class="my-auto"
           ><div class="text-center mr-md-15 mb-8">
-            <h1 class="mb-3 display-2">Bienvenido</h1>
-            <p>
+            <div class="text-h2 animated fadeIn first">Bienvenido</div>
+            <div class="text-body-1 my-5 fadeIn second">
               Me llamo Joyfer Ramos, y en este sitio encontrarás parte de mi
               trabajo, espero puedas encontrar algo que te guste, no dudes en
               contactarte conmigo. :)
-            </p>
-            <ButtonsC></ButtonsC></div
+            </div>
+            <ButtonsC class="fadeIn third"></ButtonsC></div
         ></v-col>
       </v-row>
-      <v-row class="d-flex justify-center text-center">
+      <v-row class="d-flex justify-center text-center fadeIn fourth">
         <v-divider class="mx-16 mb-4"></v-divider>
         <span class="anchor" id="saludo"></span>
         <TextAbout
@@ -68,9 +68,9 @@
 </template>
 
 <script>
-import ButtonsC from "../components/index/Buttons";
-import TextAbout from "../components/index/TextAbout";
-import CardHerramientas from "../components/index/CardHerramientas";
+import ButtonsC from "../components/Home/Buttons";
+import TextAbout from "../components/Home/TextAbout";
+import CardHerramientas from "../components/Home/CardHerramientas";
 
 export default {
   name: "Home",
@@ -93,9 +93,6 @@ export default {
 .smBg {
   margin-top: 30vh;
   margin-bottom: 30vh;
-}
-.home p{
-  font-size: 18px
 }
 .anchor {
     display: block;

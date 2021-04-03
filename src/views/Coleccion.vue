@@ -1,15 +1,15 @@
 <template>
   <div class="Catalogo mt-16">
     <v-container>
-      <v-row>
+      <v-row class="fadeInDown">
         <v-col cols="12" md="3">
           <v-row class="stickyCard" >
-            <v-col cols="12">
+            <v-col cols="12" class="fadeIn first">
           <CartaIzquierdaTags></CartaIzquierdaTags>
           </v-col>
           </v-row>
         </v-col>
-        <v-col cols="12" md="9">
+        <v-col cols="12" md="9" class="fadeIn first">
           <v-row>
             <v-col cols="12">
               <CartaInformacion></CartaInformacion>

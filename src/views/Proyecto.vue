@@ -1,26 +1,20 @@
 <template>
-  <div class="Proyecto mt-16">
+  <div class="Proyecto mt-16 fadeInDown">
     <v-container>
       <v-row>
         <BotonVolver moveTo="/coleccion"></BotonVolver>
       </v-row>
       <v-row>
-        <v-col cols="12" md="7"
+        <v-col cols="12" md="7" class="fadeIn second"
           ><CaruselProyecto :imagenes="filtrado[0].imagenes"></CaruselProyecto
         ></v-col>
-        <v-col cols="12" md="5"
-          ><h1 v-text="filtrado[0].nombre"></h1>
-          <p v-text="filtrado[0].descripcion"></p>
+        <v-col cols="12" md="5" class="fadeIn first"
+          ><div class="text-h3" v-text="filtrado[0].nombre"></div>
+          <div class="text-body-1 my-5" v-text="filtrado[0].descripcion"></div>
+          <BotonesProyectoVista class="mb-4" :url="filtrado[0].url"></BotonesProyectoVista>
           <ListaCaracteristicas
             :caracteristicas="filtrado[0].tags"
           ></ListaCaracteristicas>
-          <div class="mt-4">
-            <p>
-              Recuerda que si algo te gusta, puedes escribirme a algunos de mis
-              contactos.
-            </p>
-            <BotonesProyectoVista :url="filtrado[0].url"></BotonesProyectoVista>
-          </div>
         </v-col>
       </v-row>
     </v-container>

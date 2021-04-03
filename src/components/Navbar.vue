@@ -26,10 +26,4 @@ export default {
 </script>
 
 <style scoped>
-.nav {
-  font-family: "Source Sans Pro", sans-serif;
-}
-a{
-  font-weight: 600;
-}
 </style>

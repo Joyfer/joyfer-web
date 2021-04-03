@@ -38,7 +38,7 @@
 
 <script>
 import { mapState } from "vuex";
-import Tag from "../../buttons/Tag";
+import Tag from "../buttons/Tag";
 export default {
   name: "CartaProyecto",
   components: {
@@ -65,7 +65,6 @@ export default {
   opacity: 0;
 }
 .descripcion {
-  font-family: "Source Sans Pro", sans-serif;
   width: 90%;
   white-space: nowrap;
   text-overflow: ellipsis;

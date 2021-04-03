@@ -1,9 +1,9 @@
 <template>
   <div class="CartaIzquierdaTags">
     <v-col cols="12" class="pa-0 text-center mt-5">
-      <h3>Estás viendo:</h3>
+      <div class="text-h5">Estás viendo:</div>
       <Tag :tags="{ icono: 'close', nombre: tagFiltrado }" tagBuscado=""></Tag><br />
-      <small>Clic en los tags para filtrar el contenido</small>
+      <div class="text-caption">Clic en los tags para filtrar el contenido</div>
     </v-col>
   </div>
 </template>

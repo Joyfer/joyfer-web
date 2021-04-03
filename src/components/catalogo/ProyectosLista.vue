@@ -12,7 +12,7 @@
 
 <script>
 import { mapState } from "vuex";
-import CartaProyecto from "./componentesInternos/CartaProyecto";
+import CartaProyecto from "../componentesInternos/CartaProyecto";
 export default {
   name: "ProyectosLista",
   components: {
