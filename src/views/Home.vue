@@ -1,30 +1,37 @@
 <template>
   <div class="home">
-    <v-container fill-height>
-      <v-row
-        :class="{
-          svgBg: $vuetify.breakpoint.mdAndUp,
-          smBg: !$vuetify.breakpoint.mdAndUp,
-        }"
-        class="d-flex align-end flex-column fadeInDown fadeIn second"
-      >
-        <v-col height="100" cols="12" md="6" class="my-auto"
-          ><div class="text-center mr-md-15 mb-8">
-            <div class="text-h2 animated fadeIn first">Bienvenido</div>
-            <div class="text-body-1 my-5 fadeIn second">
-              Me llamo Joyfer Ramos, y en este sitio encontrarás parte de mi
-              trabajo, espero puedas encontrar algo que te guste, no dudes en
-              contactarte conmigo. :)
-            </div>
-            <ButtonsC class="fadeIn third"></ButtonsC></div
-        ></v-col>
+    <v-container fluid>
+      <v-row>
+        <v-parallax
+          class="parallax"   
+          src="../assets/imgs/bg.jpg"
+        >
+          <v-row
+            :class="{
+              svgBg: $vuetify.breakpoint.lgAndUp,
+              smBg: !$vuetify.breakpoint.lgAndUp,
+            }"
+            class="d-flex align-end flex-column fadeInDown"
+          >
+            <v-col height="100" cols="12" md="12" lg="7" class="my-auto d-flex justify-center"
+              ><div class="text-center d-flex align-center justify-center flex-column mb-16 mr-lg-8">
+                <h2 class="text-h2 animated fadeIn first">Bienvenido</h2>
+                <p class="text-body-1 my-5 fadeIn second">
+                  Me llamo Joyfer Ramos, y en este sitio encontrarás parte de mi
+                  trabajo, espero puedas encontrar algo que te guste, no dudes
+                  en contactarte conmigo. :)
+                </p>
+                <ButtonsC @goTo="goTo" class="fadeIn third"></ButtonsC></div
+            ></v-col>
+          </v-row>
+        </v-parallax>
       </v-row>
       <v-row class="d-flex justify-center text-center fadeIn fourth">
-        <v-divider class="mx-16 mb-4"></v-divider>
-        <span class="anchor" id="saludo"></span>
+        <span class="anchor" ref="saludo" id="saludo"></span>
         <TextAbout
           titulo="¡Hola!"
           icon="hand"
+          color="green lighten-1"
           descripcion="Soy un aprendíz de <strong>programación web</strong> apasionado por
           todo lo relacionado con la industria, actualmente resido en
           <strong>Caracas, Venezuela. </strong> En mi tiempo libre programo, veo
@@ -34,17 +41,22 @@
           <strong> motivación para aprenderlas.</strong>"
           class="d-flex justify-center"
         ></TextAbout>
-        <CardHerramientas class="d-flex justify-center"></CardHerramientas>
+       <CardHerramientas
+            class="d-flex justify-center mx-auto"
+          ></CardHerramientas
+        >
         <TextAbout
           titulo="Quiero"
+          color="pink"
           icon="heart-multiple"
-          descripcion="Me gustaría aprender en un futuro cercano sobre React, Docker, 
+          descripcion="Me gustaría aprender en un futuro cercano sobre Docker, 
           Python y su framework Django. Algunas bases de datos que he usado son MySQL, 
           PostgreSQL, MongoDB y me gustaría jugar con Firebase."
           class="d-flex justify-center"
         ></TextAbout>
-          <TextAbout
+        <TextAbout
           titulo="Contáctame"
+          color="blue darken-4"
           icon="card-account-mail"
           descripcion="Si quieres comunicarte conmigo, puedes hacerlo a través de
           <a href=`https://t.me/JoyferR` target=`_blank`
@@ -79,25 +91,35 @@ export default {
     TextAbout,
     CardHerramientas,
   },
+  methods: {
+    goTo: function (){
+     this.$refs.saludo.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }
+  }
 };
 </script>
 
 <style scoped>
 .svgBg {
   height: 100vh;
-  background: url("../assets/imgs/Wavy_Tech-08_Single-05.png") no-repeat;
+  background: url("../assets/imgs/il.png") no-repeat;
   background-size: 550px 550px;
-  background-position-y: 20%;
-  background-position-x: 10%;
+  background-position-y: 35%;
+  background-position-x: 3%;
 }
 .smBg {
   margin-top: 30vh;
   margin-bottom: 30vh;
 }
+.parallax {
+  width: 100vw;
+  height: 100vh !important;
+  background: rgb(54, 51, 110);
+}
 .anchor {
-    display: block;
-    height: 92px;
-    margin-top: -92px;
-    visibility: hidden;
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+  visibility: hidden;
 }
 </style>

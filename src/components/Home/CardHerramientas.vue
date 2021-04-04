@@ -7,7 +7,7 @@
       ><v-card-subtitle
         >Actualmente aprendo y programo en:</v-card-subtitle
       >
-         <img
+              <img
                 class="iconts"
                 src="../../assets/imgs/javascript.png"
               />
@@ -21,6 +21,10 @@
               /><img
                 class="iconts"
                 src="../../assets/imgs/typescript.png"
+              />
+                  <img
+                class="iconts"
+                src="../../assets/imgs/react.png"
               />
               <v-card-text>También utilizo:</v-card-text>
               <img

@@ -17,19 +17,20 @@
             ><h3>{{ proyecto.nombre }}</h3></v-card-title
           >
         </v-img>
-        <v-card-text style="position: relative;" class="descripcion">{{
-          proyecto.descripcion
-        }}
+        <v-card-text style="position: relative" class="descripcion"
+          >{{ proyecto.descripcion }}
         </v-card-text>
         <v-card-actions @click.prevent>
-          <Tag
-            v-for="tag in proyecto.tags"
-            :key="tag.index"
-            :tags="tag"
-            :tagBuscado="tag.nombre"
-            class="mx-1"
-          >
-          </Tag>
+          <v-chip-group>
+            <Tag
+              v-for="tag in proyecto.tags"
+              :key="tag.index"
+              :tags="tag"
+              :tagBuscado="tag.nombre"
+              class="mx-1"
+            >
+            </Tag>
+          </v-chip-group>
         </v-card-actions>
       </v-card>
     </v-col>

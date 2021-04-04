@@ -1,5 +1,5 @@
 <template>
-   <v-btn :to="moveTo" icon large color="orange darken-1" class="ml-3">
+   <v-btn :to="moveTo" icon large color="orange darken-1" class="ml-2">
           <v-icon >mdi-arrow-left-thick</v-icon>
         </v-btn>
 </template>

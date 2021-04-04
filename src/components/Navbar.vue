@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar class="nav" elevation="3" elevate-on-scroll fixed color="purple lighten-1" dark >
+  <v-app-bar class="nav" elevation="3" fixed color="purple lighten-1" dark >
 
     <v-toolbar-title>@Joyfer</v-toolbar-title>
 

@@ -4,7 +4,7 @@
       <v-row class="fadeInDown">
         <v-col cols="12" md="3">
           <v-row class="stickyCard" >
-            <v-col cols="12" class="fadeIn first">
+            <v-col cols="12" class="fadeIn second">
           <CartaIzquierdaTags></CartaIzquierdaTags>
           </v-col>
           </v-row>
@@ -39,6 +39,6 @@ export default {
 <style>
 .stickyCard{
   position: sticky;
-  top: 18%;
+  top: 19%;
 }
 </style>

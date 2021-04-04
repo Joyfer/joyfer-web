@@ -5,15 +5,15 @@
         <BotonVolver moveTo="/coleccion"></BotonVolver>
       </v-row>
       <v-row>
-        <v-col cols="12" md="7" class="fadeIn second"
+        <v-col cols="12" md="7" class="fadeIn first"
           ><CaruselProyecto :imagenes="filtrado[0].imagenes"></CaruselProyecto
         ></v-col>
-        <v-col cols="12" md="5" class="fadeIn first"
-          ><div class="text-h3" v-text="filtrado[0].nombre"></div>
-          <div class="text-body-1 my-5" v-text="filtrado[0].descripcion"></div>
+        <v-col cols="12" md="5" class="fadeIn second"
+          ><h3 class="text-h3" v-text="filtrado[0].nombre"></h3>
+          <p class="text-body-2 my-5" v-text="filtrado[0].descripcion"></p>
           <BotonesProyectoVista class="mb-4" :url="filtrado[0].url"></BotonesProyectoVista>
           <ListaCaracteristicas
-            :caracteristicas="filtrado[0].tags"
+            :caracteristicas="filtrado[0].caracteristicas"
           ></ListaCaracteristicas>
         </v-col>
       </v-row>

@@ -1,6 +1,6 @@
 <template>
   <div class="ButtonsC">
-    <v-btn outlined class="ma-2" color="purple lighten-1" to="#saludo"
+    <v-btn dark class="ma-2" color="purple lighten-1" @click="goTo"
       >Ver contacto<v-icon right> mdi-account-circle </v-icon></v-btn
     ><v-btn
       class="ma-2"
@@ -16,6 +16,11 @@
 <script>
 export default {
   name: "ButtonsC",
+  methods: {
+    goTo: function (){
+      this.$emit('goTo')
+    }
+  }
 };
 </script>
 
