@@ -74,6 +74,7 @@
           id: #6528"
           class="d-flex justify-center"
         ></TextAbout>
+      <Formulario></Formulario>
       </v-row>
     </v-container>
   </div>
@@ -83,6 +84,7 @@
 import ButtonsC from "../components/Home/Buttons";
 import TextAbout from "../components/Home/TextAbout";
 import CardHerramientas from "../components/Home/CardHerramientas";
+import Formulario from "../components/Formulario/Formulario"
 
 export default {
   name: "Home",
@@ -90,6 +92,7 @@ export default {
     ButtonsC,
     TextAbout,
     CardHerramientas,
+    Formulario
   },
   methods: {
     goTo: function (){
