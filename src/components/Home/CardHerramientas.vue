@@ -4,56 +4,23 @@
       ><v-card-title class="mx-auto d-flex justify-center"
         >Me interesa principalmente obtener conocimientos
         full-stack</v-card-title
-      ><v-card-subtitle
-        >Actualmente aprendo y programo en:</v-card-subtitle
-      >
-              <img
-                class="iconts"
-                src="../../assets/imgs/javascript.png"
-              />
-              <img
-                class="iconts"
-                src="../../assets/imgs/node-js.png"
-              />
-              <img
-                class="iconts"
-                src="../../assets/imgs/vuejs.png"
-              /><img
-                class="iconts"
-                src="../../assets/imgs/typescript.png"
-              />
-                  <img
-                class="iconts"
-                src="../../assets/imgs/react.png"
-              />
-              <v-card-text>También utilizo:</v-card-text>
-              <img
-                class="iconts"
-                src="../../assets/imgs/github.png"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="GitHub"
-              /><img
-                class="iconts"
-                src="../../assets/imgs/adobe.png"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Photoshop"
-              /><img
-                class="iconts"
-                src="../../assets/imgs/visual-studio.png"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Visual Studio Code"
-              /><img
-                class="iconts"
-                src="../../assets/imgs/bootstrap.png"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Bootstrap"
-              />
-      </v-card
-    >
+      ><v-card-subtitle>Actualmente aprendo y programo en:</v-card-subtitle>
+      <img class="iconts" src="https://i.imgur.com/aDxpiEw.png" />
+      <img class="iconts" src="https://i.imgur.com/R8UXpEt.png" />
+      <img class="iconts" src="https://i.imgur.com/aNttFmy.png" /><img
+        class="iconts"
+        src="https://i.imgur.com/Efwk74f.png"
+      />
+      <img class="iconts" src="https://i.imgur.com/1KcCs5E.png" />
+      <v-card-text>También utilizo:</v-card-text>
+      <img class="iconts" src="https://i.imgur.com/Oizy0zD.png" /><img
+        class="iconts"
+        src="https://i.imgur.com/17W6IjC.png"
+      /><img class="iconts" src="https://i.imgur.com/AAqSal8.png" /><img
+        class="iconts"
+        src="https://i.imgur.com/CCBlrEX.png"
+      />
+    </v-card>
   </v-col>
 </template>
 
@@ -64,7 +31,7 @@ export default {
 </script>
 
 <style>
-.iconts{
-    margin: 3px 6px;
+.iconts {
+  margin: 3px 6px;
 }
 </style>

@@ -16,7 +16,7 @@
       href="https://mail.google.com/mail/?view=cm&fs=1&to=joyferramos@gmail.com"
       target="_blank"
       >¡Envíame un correo!<v-icon right> mdi-at </v-icon>
-    </v-btn><br>
+    </v-btn>
     <v-btn
       class="mx-2"
       color="black"

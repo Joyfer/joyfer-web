@@ -4,7 +4,7 @@
       <v-row>
         <v-parallax
           class="parallax"   
-          src="../assets/imgs/bg.jpg"
+          src="https://i.imgur.com/bLIX1y2.jpg"
         >
           <v-row
             :class="{
@@ -102,7 +102,7 @@ export default {
 <style scoped>
 .svgBg {
   height: 100vh;
-  background: url("../assets/imgs/il.png") no-repeat;
+  background: url("https://i.imgur.com/h5Mcw6W.png") no-repeat;
   background-size: 550px 550px;
   background-position-y: 35%;
   background-position-x: 3%;
