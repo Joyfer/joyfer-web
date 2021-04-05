@@ -1,6 +1,6 @@
 <template>
   <div class="AlertaWarning">
-    <v-alert text color="orange darken-2" icon="mdi-check-bold" border="right">
+    <v-alert text color="success" icon="mdi-check-bold" border="right">
       {{msg}}
     </v-alert>
   </div>

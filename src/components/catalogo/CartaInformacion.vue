@@ -2,13 +2,13 @@
   <div class="CartaInformacion mt-4">
     <h1 class="mb-3 display-2">Colección de proyectos<v-icon color="purple lighten-1" right large> mdi-folder-heart </v-icon></h1>
     <p class="mb-5 text-body-1">
-      Todo lo mostrado aquí es contenido comprable, solo vendo las plantillas,
-      no doy servicio de hosting ni mantenimiento, pero siempre se puede hablar.
-      ¡Espero que te guste!
+      Mi colección de proyectos, la mayoría de ellos son creados por hobby, si algo te interesa recuerda que puedes
+      comunicarte conmigo sin ningún compromiso, también si quieres algo personalizado y está dentro de mis conocimientos
+      estoy al servicio para ti.
     </p>
     <AlertaWarning
-      msg="Todo el contenido mostrado aquí es creado por mí utilizando diferentes herramientas, frameworks y librerias,
-      por ende queda prohibido el uso desautorizado del material mostrado a continuación."
+      msg="El contenido mostrado a continuación es hecho por mí con diferentes liberías y frameworks, 100% personalizado
+      por mí."
     ></AlertaWarning>
   </div>
 </template>

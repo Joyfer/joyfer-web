@@ -10,7 +10,7 @@
           :src="proyecto.imagenes[0]"
           :lazy-src="proyecto.imagenes[0]"
           class="white--text align-end"
-          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+          gradient="to bottom, rgba(0,0,0,.0), rgba(0,0,0,.5)"
           height="300px"
         >
           <v-card-title
