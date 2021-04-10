@@ -59,22 +59,21 @@
           color="blue darken-4"
           icon="card-account-mail"
           descripcion="Si quieres comunicarte conmigo, puedes hacerlo a través de
-          <a href=`https://t.me/JoyferR` target=`_blank`
+          <a href=https://t.me/JoyferR target=`_blank`
             >Telegram <i class=`fab fa-telegram`></i></a
           >, correo electrónico
           <a
-            href=`https://mail.google.com/mail/?view=cm&fs=1&to=joyferramos@gmail.com`
+            href=https://mail.google.com/mail/?view=cm&fs=1&to=joyferramos@gmail.com
             target=`_blank`
             >joyferramos@gmail.com <i class=`fas fa-envelope`></i
           ></a>
           o
-          <a href=`https://discord.com/app` target=`_blank`
+          <a href=https://discord.com/app target=`_blank`
             >Discord <i class=`fab fa-discord`></i
           ></a>
           id: #6528"
           class="d-flex justify-center"
         ></TextAbout>
-      <Formulario></Formulario>
       </v-row>
     </v-container>
   </div>
@@ -84,15 +83,13 @@
 import ButtonsC from "../components/Home/Buttons";
 import TextAbout from "../components/Home/TextAbout";
 import CardHerramientas from "../components/Home/CardHerramientas";
-import Formulario from "../components/Formulario/Formulario"
 
 export default {
   name: "Home",
   components: {
     ButtonsC,
     TextAbout,
-    CardHerramientas,
-    Formulario
+    CardHerramientas
   },
   methods: {
     goTo: function (){

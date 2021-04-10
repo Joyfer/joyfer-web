@@ -1,7 +1,7 @@
 <template>
   <v-app-bar class="nav" elevation="3" fixed color="purple lighten-1" dark >
 
-    <v-toolbar-title>@Joyfer</v-toolbar-title>
+    <v-toolbar-title>Joyfer - Portafolio</v-toolbar-title>
 
     <v-spacer></v-spacer>
     <RedesSociales></RedesSociales>
