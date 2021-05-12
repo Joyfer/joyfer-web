@@ -9,6 +9,7 @@ export default new Vuex.Store({
       {
         id: "1",
         nombre: "Let's play thgther",
+        heroku: true,
         descripcion:
           "App creada por hobby, un reproductor de YouTube online para ver videos junto a amigos, etc. Conexión por websockets usando Socket.io de NodeJS.",
         imagenes: [
@@ -54,6 +55,7 @@ export default new Vuex.Store({
       {
         id: "3",
         nombre: "Reproductor Youtube",
+        heroku: true,
         descripcion:
           "Un Reproductor sencillo en Vue 2, con el poder de crear listas de reproducción.",
         imagenes: ["https://i.imgur.com/bCxqBhR.png", "https://i.imgur.com/ZRDzVr4.png", "https://i.imgur.com/QnmGvmi.png"],

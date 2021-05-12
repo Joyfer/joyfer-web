@@ -3,17 +3,17 @@
     <v-container fluid>
       <v-row>
         <v-parallax
-          class="parallax"   
+          class="parallax fadeInDown"   
           src="https://i.imgur.com/bLIX1y2.jpg"
         >
           <v-row
             :class="{
-              svgBg: $vuetify.breakpoint.lgAndUp,
-              smBg: !$vuetify.breakpoint.lgAndUp,
+              svgBg: $vuetify.breakpoint.mdAndUp,
+              smBg: $vuetify.breakpoint.smAndDown,
             }"
-            class="d-flex align-end flex-column fadeInDown"
+            class="d-flex align-end flex-column"
           >
-            <v-col height="100" cols="12" md="12" lg="7" class="my-auto d-flex justify-center"
+            <v-col height="100" cols="12" sm="12" md="7" class="my-auto d-flex justify-center"
               ><div class="text-center d-flex align-center justify-center flex-column mb-16 mr-lg-8">
                 <h2 class="text-h2 animated fadeIn first">Bienvenido</h2>
                 <p class="text-body-1 my-5 fadeIn second">
