@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <v-parallax
-          class="parallax fadeInDown"   
+          class="parallax"   
           src="https://i.imgur.com/bLIX1y2.jpg"
         >
           <v-row
@@ -11,7 +11,7 @@
               svgBg: $vuetify.breakpoint.mdAndUp,
               smBg: $vuetify.breakpoint.smAndDown,
             }"
-            class="d-flex align-end flex-column"
+            class="d-flex align-end flex-column fadeInDown"
           >
             <v-col height="100" cols="12" sm="12" md="7" class="my-auto d-flex justify-center"
               ><div class="text-center d-flex align-center justify-center flex-column mb-16 mr-lg-8">
