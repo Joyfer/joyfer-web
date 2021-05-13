@@ -7,8 +7,7 @@
       estoy al servicio para ti.
     </p>
     <AlertaWarning
-      msg="El contenido mostrado a continuación es hecho por mí con diferentes librerías y frameworks, 100% personalizado
-      por mí."
+      msg="El contenido mostrado a continuación es hecho por mí con diferentes librerías y frameworks, 100% personalizados."
     ></AlertaWarning>
   </div>
 </template>

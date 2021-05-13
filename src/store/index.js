@@ -38,6 +38,7 @@ export default new Vuex.Store({
         nombre: "Portafolio diseñador",
         descripcion:
           "Portafolio sencillo estilo cartas de Facebook para mostrar imagenes, potenciado con tags para filtrar su contenido.",
+        url: "https://joyfer-catalogo-fb.netlify.app/",
         imagenes: [
           "https://i.imgur.com/mAok9VK.png",
           "https://i.imgur.com/D9Y8dmK.png",
