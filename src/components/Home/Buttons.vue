@@ -5,7 +5,6 @@
     ><v-btn
       class="ma-2"
       color="orange darken-1"
-      elevation="2"
       dark
       to="/coleccion"
       >Ver colección<v-icon right> mdi-folder-heart </v-icon>

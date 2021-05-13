@@ -3,7 +3,7 @@
     <v-col
       v-show="JSON.stringify(proyecto.tags).includes(tagFiltrado)"
       cols="12"
-      md="6"
+      sm="6"
     >
       <v-card :to="`/coleccion/` + proyecto.id">
         <v-img

@@ -30,7 +30,7 @@ export default new Vuex.Store({
           { icono: "bootstrap", nombre: "bootstrap" },
           { icono: "web", nombre: "Socket.io" },
           { icono: "forum", nombre: "chat" },
-          { icono: "youtube", nombre: "youtube" }
+          { icono: "youtube", nombre: "youtube" },
         ],
       },
       {
@@ -38,7 +38,11 @@ export default new Vuex.Store({
         nombre: "Portafolio diseñador",
         descripcion:
           "Portafolio sencillo estilo cartas de Facebook para mostrar imagenes, potenciado con tags para filtrar su contenido.",
-        imagenes: ["https://i.imgur.com/mAok9VK.png", "https://i.imgur.com/D9Y8dmK.png", "https://i.imgur.com/vl772Tj.png"],
+        imagenes: [
+          "https://i.imgur.com/mAok9VK.png",
+          "https://i.imgur.com/D9Y8dmK.png",
+          "https://i.imgur.com/vl772Tj.png",
+        ],
         caracteristicas: [
           { icono: "language-html5", nombre: "HTML" },
           { icono: "bootstrap", nombre: "Bootstrap 5" },
@@ -58,7 +62,11 @@ export default new Vuex.Store({
         heroku: true,
         descripcion:
           "Un Reproductor sencillo en Vue 2, con el poder de crear listas de reproducción.",
-        imagenes: ["https://i.imgur.com/bCxqBhR.png", "https://i.imgur.com/ZRDzVr4.png", "https://i.imgur.com/QnmGvmi.png"],
+        imagenes: [
+          "https://i.imgur.com/bCxqBhR.png",
+          "https://i.imgur.com/ZRDzVr4.png",
+          "https://i.imgur.com/QnmGvmi.png",
+        ],
         url: "https://reproductor-joy.herokuapp.com/#/",
         caracteristicas: [
           { icono: "vuejs", nombre: "Vue 2" },
@@ -69,6 +77,32 @@ export default new Vuex.Store({
           { icono: "vuejs", nombre: "vuejs" },
           { icono: "vuetify", nombre: "vuetify" },
           { icono: "youtube", nombre: "Youtube" },
+        ],
+      },
+      {
+        id: "4",
+        nombre: "E-Commerce NextJS",
+        heroku: true,
+        descripcion:
+          "Una tienda online con NextJS usando Static Pages, Incremental Static Regeneration y Server Side Rendering.",
+        imagenes: [
+          "https://i.imgur.com/IBMkeE8.png",
+          "https://i.imgur.com/GQccZ5M.png",
+          "https://i.imgur.com/MNqfp1E.png",
+        ],
+        url: "https://next-joyfer.herokuapp.com/",
+        gitRepo: "https://github.com/Joyfer/e-commerce",
+        caracteristicas: [
+          { icono: "react", nombre: "ReactJS" },
+          { icono: "nodejs", nombre: "NextJS" },
+          { icono: "material-ui", nombre: "Material-UI" },
+        ],
+        tags: [
+          { icono: "language-javascript", nombre: "javascript" },
+          { icono: "shopping", nombre: "e-commerce" },
+          { icono: "react", nombre: "ReactJS" },
+          { icono: "nodejs", nombre: "NextJS" },
+          { icono: "material-ui", nombre: "Material-UI" },
         ],
       },
     ],
