@@ -2,19 +2,23 @@
   <div class="home">
     <v-container fluid>
       <v-row>
-        <v-parallax
-          class="parallax"   
-          src="https://i.imgur.com/bLIX1y2.jpg"
-        >
+        <v-parallax class="parallax" src="https://i.imgur.com/bLIX1y2.jpg">
           <v-row
             :class="{
-              svgBg: $vuetify.breakpoint.mdAndUp,
-              smBg: $vuetify.breakpoint.smAndDown,
+              svgBg: $vuetify.breakpoint.lgAndUp,
+              mdBg: $vuetify.breakpoint.mdOnly,
             }"
             class="d-flex align-end flex-column fadeInDown"
           >
-            <v-col height="100" cols="12" sm="12" md="7" class="my-auto d-flex justify-center"
-              ><div class="text-center d-flex align-center justify-center flex-column mb-16 mr-lg-8">
+            <v-col
+              height="100"
+              cols="12"
+              sm="12"
+              md="7"
+              class="my-auto d-flex justify-center"
+              ><div
+                class="text-center d-flex align-center justify-center flex-column mb-16 mr-lg-8"
+              >
                 <h2 class="text-h2 animated fadeIn first">Bienvenido</h2>
                 <p class="text-body-1 my-5 fadeIn second">
                   Me llamo Joyfer Ramos, y en este sitio encontrarás parte de mi
@@ -41,10 +45,9 @@
           <strong> motivación para aprenderlas.</strong>"
           class="d-flex justify-center"
         ></TextAbout>
-       <CardHerramientas
-            class="d-flex justify-center mx-auto"
-          ></CardHerramientas
-        >
+        <CardHerramientas
+          class="d-flex justify-center mx-auto"
+        ></CardHerramientas>
         <TextAbout
           titulo="Quiero"
           color="pink"
@@ -89,13 +92,17 @@ export default {
   components: {
     ButtonsC,
     TextAbout,
-    CardHerramientas
+    CardHerramientas,
   },
   methods: {
-    goTo: function (){
-     this.$refs.saludo.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-    }
-  }
+    goTo: function () {
+      this.$refs.saludo.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    },
+  },
 };
 </script>
 
@@ -107,9 +114,12 @@ export default {
   background-position-y: 35%;
   background-position-x: 3%;
 }
-.smBg {
-  margin-top: 30vh;
-  margin-bottom: 30vh;
+.mdBg {
+  height: 100vh;
+  background: url("https://i.imgur.com/h5Mcw6W.png") no-repeat;
+  background-size: 450px 450px;
+  background-position-y: 35%;
+  background-position-x: 2%;
 }
 .parallax {
   width: 100vw;
