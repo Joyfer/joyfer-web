@@ -36,7 +36,7 @@
           titulo="¡Hola!"
           icon="hand"
           color="green lighten-1"
-          descripcion="Soy un aprendíz de <strong>programación web</strong> apasionado por
+          descripcion="Soy un <strong>programador web</strong> apasionado por
           todo lo relacionado con la industria, actualmente resido en
           <strong>Caracas, Venezuela. </strong> En mi tiempo libre programo, veo
           muchos videos o artículos relacionados, o quizá jugando.. Y en mi
