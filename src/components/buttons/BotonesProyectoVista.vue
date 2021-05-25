@@ -3,7 +3,7 @@
     <v-btn
       outlined
       class="ma-2"
-      color="indigo darken-1"
+      color="purple lighten-1"
       v-if="url"
       :href="url"
       target="_blank"

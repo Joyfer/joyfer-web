@@ -1,5 +1,5 @@
 <template>
-  <div class="Proyecto mt-7 fadeInDown">
+  <div class="Proyecto mt-16 fadeInDown">
     <v-container>
       <v-row>
         <BotonVolver moveTo="/coleccion"></BotonVolver>

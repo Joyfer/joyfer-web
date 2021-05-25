@@ -33,9 +33,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.RedesSociales{
-  width: 200px;
-}
+<style>
 </style>
-

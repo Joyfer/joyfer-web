@@ -8,7 +8,7 @@ export default new Vuex.Store({
     proyectos: [
       {
         id: "1",
-        nombre: "Let's play tgther",
+        nombre: "Let's play thgther",
         heroku: true,
         descripcion:
           "App creada por hobby, un reproductor de YouTube online para ver videos junto a amigos, etc. Conexión por websockets usando Socket.io de NodeJS.",
