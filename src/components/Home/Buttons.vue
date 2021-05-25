@@ -1,6 +1,6 @@
 <template>
   <div class="ButtonsC">
-    <v-btn dark class="ma-2" color="purple lighten-1" @click="goTo"
+    <v-btn dark class="ma-2" color="indigo darken-1" @click="goTo"
       >Ver contacto<v-icon right> mdi-account-circle </v-icon></v-btn
     ><v-btn
       class="ma-2"

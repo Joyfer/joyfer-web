@@ -1,5 +1,5 @@
 <template>
-  <div class="Catalogo mt-16">
+  <div class="Catalogo mt-5">
     <v-container>
       <v-row class="fadeInDown">
         <v-col cols="12" md="3">
@@ -39,6 +39,6 @@ export default {
 <style>
 .stickyCard{
   position: sticky;
-  top: 19%;
+  top: 11%;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <div class="CartaInformacion mt-4">
-    <h1 class="mb-3 display-2">Colección de proyectos<v-icon color="purple lighten-1" right large> mdi-folder-heart </v-icon></h1>
+  <div class="CartaInformacion">
+    <h1 class="mb-3 display-2">Colección de proyectos<v-icon color="indigo darken-1" right large> mdi-folder-heart </v-icon></h1>
     <p class="mb-5 text-body-1">
       Mi colección de proyectos, la mayoría de ellos son creados por hobby, si algo te interesa recuerda que puedes
       comunicarte conmigo sin ningún compromiso, también si quieres algo personalizado y está dentro de mis conocimientos

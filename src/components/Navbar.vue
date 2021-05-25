@@ -1,18 +1,19 @@
 <template>
-  <v-app-bar class="nav" elevation="3" fixed color="purple lighten-1" dark>
-    <v-toolbar-title>Joyfer - Portafolio</v-toolbar-title>
-    <v-spacer></v-spacer>
-    <RedesSociales></RedesSociales>
-    <template v-slot:extension>
-      <v-tabs class="tabsFont" align-with-title>
-        <v-tab to="/">
-          <v-icon left> mdi-account-circle </v-icon>Sobre mí</v-tab
-        >
-        <v-tab to="/coleccion"
-          ><v-icon left> mdi-folder-heart </v-icon>Colección</v-tab
-        >
-      </v-tabs>
-    </template>
+  <v-app-bar
+    class="nav"
+    elevation="2"
+    color="indigo darken-1
+"
+    dark
+    fixed
+  >
+    <v-tabs class="tabsFont pl-md-6">
+      <v-tab to="/"> <v-icon left> mdi-account-circle </v-icon>Sobre mí</v-tab>
+      <v-tab to="/coleccion"
+        ><v-icon left> mdi-folder-heart </v-icon>Colección</v-tab
+      >
+    </v-tabs>
+    <RedesSociales class="d-none d-sm-block"></RedesSociales>
   </v-app-bar>
 </template>
 
