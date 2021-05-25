@@ -1,17 +1,20 @@
 <template>
-  <v-card dark flat tile width="100%" class="text-center" color="#222">
+  <v-card dark flat tile width="100%" class="text-center" color="grey darken-3">
     <v-card-text>
-        <strong>I hope you enjoy my work!</strong><v-icon class="ml-3" color="pink">mdi-heart</v-icon>
+      <strong>¡Espero que te guste!</strong
+      ><v-icon class="ml-3" color="pink">mdi-heart</v-icon>
     </v-card-text>
-    <v-card-text class="white--text">
-      {{ new Date().getFullYear() }} — <strong>Vue 2, Vuetify</strong>
-    </v-card-text>
+    <RedesSociales class="mx-auto pb-5"></RedesSociales>
   </v-card>
 </template>
 
 <script>
+import RedesSociales from "./buttons/RedesSociales";
 export default {
   name: "Footer",
+  components: {
+    RedesSociales,
+  },
 };
 </script>
 

@@ -2,22 +2,19 @@
   <div class="home">
     <v-container fluid>
       <v-row>
-        <v-parallax class="parallax" src="https://i.imgur.com/bLIX1y2.jpg">
-          <v-row
+        <v-parallax class="parallax p-0" src="https://i.imgur.com/bLIX1y2.jpg">
+          <div
             :class="{
               svgBg: $vuetify.breakpoint.lgAndUp,
               mdBg: $vuetify.breakpoint.mdOnly,
             }"
-            class="d-flex align-end flex-column fadeInDown"
+            class="d-flex justify-end fadeInDown"
           >
             <v-col
-              height="100"
               cols="12"
               sm="12"
               md="7"
-              class="my-auto d-flex justify-center"
-              ><div
-                class="text-center d-flex align-center justify-center flex-column mb-16 mr-lg-8"
+              class="d-flex justify-center flex-column text-center align-center mb-15"
               >
                 <h2 class="text-h2 animated fadeIn first">Bienvenido</h2>
                 <p class="text-body-1 my-5 fadeIn second">
@@ -25,9 +22,8 @@
                   trabajo, espero puedas encontrar algo que te guste, no dudes
                   en contactarte conmigo. :)
                 </p>
-                <ButtonsC @goTo="goTo" class="fadeIn third"></ButtonsC></div
-            ></v-col>
-          </v-row>
+                <ButtonsC @goTo="goTo" class="fadeIn third"></ButtonsC></v-col>
+          </div>
         </v-parallax>
       </v-row>
       <v-row class="d-flex justify-center text-center fadeIn fourth">
@@ -108,22 +104,22 @@ export default {
 
 <style scoped>
 .svgBg {
-  height: 100vh;
+  height: 100%;
   background: url("https://i.imgur.com/h5Mcw6W.png") no-repeat;
   background-size: 550px 550px;
-  background-position-y: 35%;
+  background-position-y: 10%;
   background-position-x: 3%;
 }
 .mdBg {
-  height: 100vh;
+  height: 100%;
   background: url("https://i.imgur.com/h5Mcw6W.png") no-repeat;
   background-size: 450px 450px;
-  background-position-y: 35%;
+  background-position-y: 50%;
   background-position-x: 2%;
 }
 .parallax {
-  width: 100vw;
-  height: 100vh !important;
+  width: 100%;
+  height: 95vh !important;
   background: rgb(54, 51, 110);
 }
 .anchor {
